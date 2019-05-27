@@ -19,7 +19,7 @@ def process(token, server, subs):
         while True:
             try:
                 download = server.DownloadSubtitles(token, s)
-                print(download)
+                print(download['status'])
                 for d in download['data']:
                     with open('subs/{}'.format(d['idsubtitlefile']), 'wb') as f:
                         f.write(gzip.decompress(base64.b64decode(d['data'])))
