@@ -30,10 +30,10 @@ def process(token, server, subs):
                 continue
             break
 
-def get_all_seasons(token, server, show_name):
+def get_all_seasons(token, server, show_name, seasons, episodes):
     subs = []
-    for season in range(1, 20):
-        for episode in range(1, 32):
+    for season in seasons:
+        for episode in episodes:
             while True:
                 try:
                     search_list = [
@@ -63,9 +63,9 @@ def get_all_seasons(token, server, show_name):
     process(subs)
         
 try:
-    sys.argv[3]
+    sys.argv[5]
 except:
-    print('{} [username] [password] [show name]'.format(sys.argv[0]))
+    print('{} [username] [password] [show name] [seasonstart]-[seasonend] [episodestart]-[episodeend]'.format(sys.argv[0]))
 server = client.Server('http://api.opensubtitles.org/xml-rpc')
 try:
     with open('token', 'r') as f:
