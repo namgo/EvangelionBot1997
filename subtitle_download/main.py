@@ -77,5 +77,5 @@ except:
 
 print('hit Ctrl-c when you don\' see any more subtitles being grabbed')
 seasons = sys.argv[4].split('-')
-episodes = sy.argv[5].split('-')
+episodes = sys.argv[5].split('-')
 get_all_seasons(token, server, sys.argv[3], range(seasons[0], seasons[1]+1), range(episodes[0], episodes[1]+1))
