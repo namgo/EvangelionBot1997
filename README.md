@@ -1,7 +1,8 @@
 # What is this?
+EVAbot 1.9 + 9.7: You can (not) sentience
+
 I feel that this is a good starting place for a python/cloud☁ tutorial.
 Contained here is the source repository and guide for Evangelion Bot.
-
 
 # Does this cost money?
 Google calculator suggests I might be paying a $1USD/mo or so for storage, but doesn't do much to take away from the $300 credit.
@@ -33,4 +34,5 @@ This is going to take a few hours, depending on your CPU, since it's transcoding
 I couldn't think of a programmatic way to do this, so we'll just browse through all 26 episodes and remove the intro/extro images.
 
 # Getting subtitles
-You'll only really be able to download 100 or so subs per day unless you can find a work-around
+You'll only really be able to download 100 or so subs per day unless you can find a work-around.
+
