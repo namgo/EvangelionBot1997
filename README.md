@@ -4,8 +4,10 @@ EVAbot 1.9 + 9.7: You can (not) sentience
 I feel that this is a good starting place for a python/cloud☁ tutorial.
 Contained here is the source repository and guide for Evangelion Bot.
 
+titles obtained from epguides.com
+
 # Does this cost money?
-Google calculator suggests I might be paying a $1USD/mo or so for storage, but doesn't do much to take away from the $300 credit.
+Google calculator suggests I might be paying at most $1USD/mo for storage, but doesn't do much to take away from the $300 credit.
 
 # How long did this take?
 I broke up the bot into parts, so generate.py should have taken about an hour if I had prepared the fonts ahead of time instead of trying to see what looked best.
@@ -36,3 +38,5 @@ I couldn't think of a programmatic way to do this, so we'll just browse through 
 # Getting subtitles
 You'll only really be able to download 100 or so subs per day unless you can find a work-around.
 
+# Saving money
+To save money, we'll store the list of blobs in our firestore database

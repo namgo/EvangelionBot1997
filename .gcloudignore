@@ -1,0 +1,7 @@
+*.png
+.git
+*.md
+titles/
+video_processing/
+subtitle_download/
+test.jpg
