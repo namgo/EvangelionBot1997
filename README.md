@@ -6,24 +6,16 @@ Contained here is the source repository and guide for Evangelion Bot.
 
 titles obtained from epguides.com
 
+This isn't really a tutorial yet, but stay tuned.
+
 # Does this cost money?
 Google calculator suggests I might be paying at most $1USD/mo for storage, but doesn't do much to take away from the $300 credit.
 
-# How long did this take?
-I broke up the bot into parts, so generate.py should have taken about an hour if I had prepared the fonts ahead of time instead of trying to see what looked best.
-
 Processing videos is heavily CPU dependant, but I'd recommend not trying to use cloud resources to do this, otherwise you might end up paying for the time you save.
-
-# How is this being done?
-Everyting done here is contained within either Windows Subsystem for Linux or a Cloud System, so all commands are for linux. I highly recommend all aspiring botmins get comfortable with WSL.
-
-## How to install WSL
-This will not be covered by the tutorial but can be found here:
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
 
 # Converting videos to screenshots
 This does involve some bash scripting.
-This will also require about 41.6GB of storage space, so be prepared.
+This will also require a total of about 41.6GB of storage space (between images and video), so be prepared.
 
 Check out the bash script I've included in video_processing.
 First we'll navigate to our directory with `cd`.
